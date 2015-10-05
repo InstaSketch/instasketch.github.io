@@ -1,0 +1,33 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            'InstaSketch'
+# tagline:          'A Jekyll theme'
+# description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:			'A CBIR app which accepts input in the form of a sketch and outputs similar images. Reverse image search in the palm of your hand!'
+url:              http://instasketch.github.io
+baseurl:          /
+
+# author:
+#   name:           'The InstaSketch team'
+#   url:            https://github.com/orgs/InstaSketch/people
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/InstaSketch
+
+deploy:
+	host: github_pages
+	branch: master
+	
+gems: [jekyll-paginate, jekyll-gist]
